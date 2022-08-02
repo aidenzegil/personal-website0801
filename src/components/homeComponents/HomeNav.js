@@ -4,7 +4,7 @@ import melon from "./media/watermelon.png"
 
 const HomeNav = () => {
   return (
-    <nav class="navbar is-fixed-top" style={{width: '100vw', backgroundColor: '#E4FCF4'}}>
+    <nav class="navbar is-fixed-top is-hidden-touch" style={{width: '100vw', backgroundColor: '#E4FCF4'}}>
         <div class="navbar-brand">
             <a href="http://aidenzegil.com">
                 <img src={melon} alt=""/>
