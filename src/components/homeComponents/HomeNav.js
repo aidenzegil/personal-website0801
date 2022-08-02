@@ -1,9 +1,15 @@
 import React from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
+import melon from "./media/watermelon.png"
 
 const HomeNav = () => {
   return (
-    <nav class="navbar is-fixed-top has-background-primary-light" style={{width: '100vw'}}>
+    <nav class="navbar is-fixed-top" style={{width: '100vw', backgroundColor: '#E4FCF4'}}>
+        <div class="navbar-brand">
+            <a href="http://aidenzegil.com">
+                <img src={melon} alt=""/>
+            </a>
+        </div>
       <div class="field is-grouped">
         <Link
           class="navbar-item has-text-primary"
@@ -42,12 +48,12 @@ const HomeNav = () => {
           Contact
         </Link>
         <div class="navbar-end">
-      <div class="navbar-item has-dropdown is-right is-hoverable">
+      {/* <div class="navbar-item has-dropdown is-right is-hoverable">
         <h1 class="navbar-link is-arrowless has-text-primary">
           Pages
         </h1>
 
-        {/* <div class="navbar-dropdown">
+        <div class="navbar-dropdown">
         <Link class="navbar-item" to="/home">Home</Link>
         <Link class="navbar-item" to="/projects">Projects</Link>
         <Link class="navbar-item" to="/video">Video</Link>
@@ -55,8 +61,8 @@ const HomeNav = () => {
           <div class="navbar-item">
             Version 0.0.1
           </div>
-        </div> */}
-      </div>
+        </div> 
+      </div>  */}
     </div>
       </div>
     </nav>
