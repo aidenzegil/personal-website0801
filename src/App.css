@@ -1,4 +1,32 @@
 .App {
   text-align: center;
+  overflow: hidden; 
+ background-image: linear-gradient(-225deg, rgb(227, 253, 245) 0%, rgb(255, 230, 250) 100%);
 }
 
+
+.img-responsive {
+  display: block; 
+  max-width: 400px;
+  height: auto;
+} 
+
+.column {
+  display: flex;
+}
+
+.grow { 
+	transition: all .5s ease-in-out; 
+}
+	.grow:hover { 
+    	transform: scale(1.1); 
+    }
+
+a {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
