@@ -12,7 +12,7 @@ const HomeNav = () => {
         </div>
       <div class="field is-grouped">
         <Link
-          class="navbar-item has-text-primary is-size-3-widescreen"
+          class="navbar-item has-text-primary is-size-4-widescreen"
           to="intro"
           smooth={true}
           offset={-70}
@@ -21,7 +21,7 @@ const HomeNav = () => {
           Intro
         </Link>
         <Link
-          class="navbar-item has-text-primary is-size-3-widescreen"
+          class="navbar-item has-text-primary is-size-4-widescreen"
           to="favorite"
           smooth={true}
           offset={-70}
@@ -30,7 +30,7 @@ const HomeNav = () => {
           Enjoy
         </Link>
         <Link
-          class="navbar-item has-text-primary is-size-3-widescreen"
+          class="navbar-item has-text-primary is-size-4-widescreen"
           to="skills"
           smooth={true}
           offset={-70}
@@ -39,7 +39,7 @@ const HomeNav = () => {
           Skills
         </Link>
         <Link
-          class="navbar-item has-text-primary is-size-3-widescreen" 
+          class="navbar-item has-text-primary is-size-4-widescreen" 
           to="contact"
           smooth={true}
           offset={-70}

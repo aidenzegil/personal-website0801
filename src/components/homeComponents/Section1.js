@@ -36,7 +36,7 @@ const Section1 = () => {
                 You can typically find me climbing at Vital Brooklyn in the
                 evenings and coding at a cafe during the day. I get excited
                 about making old things look new and doing hipster stuff like
-                yoga.
+                shark fishing or thrifting.
               </h3>
             </div>
           </div>

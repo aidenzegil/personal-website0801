@@ -11,11 +11,10 @@ const Section2 = () => {
               <h1 class="title block p-3 has-text-primary">Favorite Build</h1>
               <h2 class="subtitle block p-4">
                 I've done quite a few projects but there are some that I loved
-                so much I just had to build them <strong>twice</strong>!
+                so much I just had to build them twice, like Tweeter Man!
               </h2>
               <h3 class="subtitle block p-4">
-                I encourage you to check out my favorite project,
-                tweeterman.com. It's simple, easy, and I use it all the time
+                I encourage you to check it out at <a href="https://tweeterman.com/"><strong>tweeterman.com</strong></a>. It's simple, easy, and I use it all the time
                 when I don't feel like coming up with original tweets!
               </h3>
             </div>
