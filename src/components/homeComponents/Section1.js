@@ -15,9 +15,9 @@ const Section1 = () => {
         </div>
         <div class="column is-two-fifths block m-auto" >
           <div class="box" style={{height: '100%'}}>
-            <h1 class="title block p-3">Hey There!</h1>
-            <h2 class="subtitle block p-4">I'm Aiden Zegil. A spontaneous thinker and creative builder. I build anything and everything! Whether it's coffee tables, saunas, or websites, I'm your guy!</h2>
-            <h3 class="subtitle block p-4 is-hidden-touch is-hidden-tablet-only">You can typically find me climbing at Vital Brooklyn in the evenings and coding at a cafe during the day. I get excited about making old stuff look new and doing hipster stuff like yoga.</h3>
+            <h1 class="title block p-3 has-text-primary">Hey There!</h1>
+            <h2 class="subtitle block p-4">I'm Aiden, a spontaneous thinker and creative builder. I build anything and everything! Whether it's coffee tables, saunas, or websites, I'm your guy!</h2>
+            <h3 class="subtitle block p-4 ">You can typically find me climbing at Vital Brooklyn in the evenings and coding at a cafe during the day. I get excited about making old stuff look new and doing hipster stuff like yoga.</h3>
           </div>
         </div>
       </div>

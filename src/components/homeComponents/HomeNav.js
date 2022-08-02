@@ -3,10 +3,10 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const HomeNav = () => {
   return (
-    <nav class="navbar is-fixed-top" style={{width: '100vw'}}>
+    <nav class="navbar is-fixed-top has-background-primary-light" style={{width: '100vw'}}>
       <div class="field is-grouped">
         <Link
-          class="navbar-item"
+          class="navbar-item has-text-primary"
           to="intro"
           smooth={true}
           offset={-70}
@@ -15,16 +15,16 @@ const HomeNav = () => {
           Intro
         </Link>
         <Link
-          class="navbar-item"
+          class="navbar-item has-text-primary"
           to="favorite"
           smooth={true}
           offset={-70}
           duration={500}
         >
-          Cool
+          Enjoy
         </Link>
         <Link
-          class="navbar-item"
+          class="navbar-item has-text-primary"
           to="skills"
           smooth={true}
           offset={-70}
@@ -33,7 +33,7 @@ const HomeNav = () => {
           Skills
         </Link>
         <Link
-          class="navbar-item"
+          class="navbar-item has-text-primary"
           to="contact"
           smooth={true}
           offset={-70}
@@ -43,7 +43,7 @@ const HomeNav = () => {
         </Link>
         <div class="navbar-end">
       <div class="navbar-item has-dropdown is-right is-hoverable">
-        <h1 class="navbar-link is-arrowless">
+        <h1 class="navbar-link is-arrowless has-text-primary">
           Pages
         </h1>
 

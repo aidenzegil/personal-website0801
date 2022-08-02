@@ -6,11 +6,11 @@ const Section4 = () => {
       <div class="columns is-desktop is-centered">
         <div class="column is-two-fifths m-auto">
           <div class="box" style={{height: '100%'}}>
-            <h1 class="title">Get In Touch</h1>
+            <h1 class="title has-text-primary">Get In Touch</h1>
             <h2 class="subtitle block">
               Shoot me your email and I'll contact you!
             </h2>
-            <div class="field is-horizontal block">
+            <div class="field is-horizontal level-item">
               <p class="control has-icons-left">
                 <input
                   class="input is-primary"
