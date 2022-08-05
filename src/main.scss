@@ -1,3 +1,16 @@
 $column-gap: 6em;
 
 @import 'bulma';
+
+.navbar-item {
+    &.has-dropdown {
+      .navbar-dropdown {
+        display: none;
+      }
+      &.is-active {
+        .navbar-dropdown {
+          display: block;
+        }
+      }
+   }
+  }

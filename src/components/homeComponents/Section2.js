@@ -5,7 +5,7 @@ const Section2 = () => {
   return (
     <div id="favorite" class="section is-large is-widescreen">
       <div class="columns is-centered is-3 block">
-        <div class="column is-half block">
+        <div class="column is-half-desktop is-four-fifths-tablet block">
           <div className="grow">
             <div class="box">
               <h1 class="title block p-3 has-text-primary">Favorite Build</h1>

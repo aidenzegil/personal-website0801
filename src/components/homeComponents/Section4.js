@@ -5,7 +5,7 @@ const Section4 = () => {
   return (
     <div id="contact" class="section is-large is-widescreen">
       <div class="columns is-desktop is-centered">
-        <div class="column is-half m-auto">
+        <div class="column is-half-desktop is-four-fifths-tablet m-auto">
           <div className="grow">
             <div class="box" style={{ height: "100%" }}>
               <h1 class="title has-text-primary">Get In Touch</h1>

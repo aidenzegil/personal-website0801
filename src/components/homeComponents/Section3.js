@@ -5,7 +5,7 @@ const Section3 = () => {
   return (
     <div id="skills" class="section is-large is-widescreen">
       <div class="columns  is-desktop is-centered is-3 block">
-        <div class="column is-two-fifths block m-auto">
+        <div class="column is-two-fifths-widescreen is-half-desktop is-four-fifths-tablet block m-auto">
           <div className="grow">
             <div class="box" style={{ height: "100%" }}>
               <h1 class="title block p-3 has-text-primary">My Skills</h1>
@@ -25,7 +25,7 @@ const Section3 = () => {
           </div>
         </div>
         <div
-          class="column is-centered is-two-fifths block m-auto"
+          class="column is-centered is-two-fifths-widescreen is-half-desktop is-four-fifths-tablet block m-auto"
           style={{ height: "100%" }}
         >
           <div className="grow">
