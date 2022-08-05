@@ -12,9 +12,8 @@ const Section1 = () => {
             style={{ height: "100%" }}
           ><div className="grow">
             <div class="box" style={{ height: "100%" }}>
-              <figure>
+              <figure  class="image is-1by1">
                 <img
-                  className="img-responsive"
                   class="is-centered"
                   src={pfp}
                   alt="pfp"
