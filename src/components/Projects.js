@@ -43,12 +43,6 @@ const Projects = () => {
               >
                 Projects
               </a>
-              <a
-                class="navbar-item has-text-primary is-size-6-widescreen"
-                href="/video"
-              >
-                Video
-              </a>
               <hr class="navbar-divider"></hr>
               <div class="navbar-item has-text-primary is-size-6-widescreen">
                 Version 0.0.1
