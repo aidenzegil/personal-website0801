@@ -91,7 +91,7 @@ const HomeNav = () => {
             </a>
             <a
               class="navbar-item has-text-primary is-size-6-widescreen"
-              href="aidenzegil.com/projects"
+              href="/projects"
             >
               Projects
             </a>
