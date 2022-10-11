@@ -30,6 +30,17 @@ const Section3 = () => {
         >
           <div className="grow">
             <div class="box" style={{ height: "100%" }}>
+              
+              <div class="  block">
+                <h1 class=" ">TypeScript</h1>
+                <progress
+                  class="progress level-item is-success is-small"
+                  value="60"
+                  max="100"
+                >
+                  80%
+                </progress>
+              </div>
               <div class="  block">
                 <h1 class=" ">React.js</h1>
                 <progress
@@ -45,6 +56,16 @@ const Section3 = () => {
                 <progress
                   class="progress level-item is-warning is-small"
                   value="30"
+                  max="100"
+                >
+                  80%
+                </progress>
+              </div>
+              <div class="  block">
+                <h1 class=" ">Next.js</h1>
+                <progress
+                  class="progress level-item is-danger is-small"
+                  value="15"
                   max="100"
                 >
                   80%
@@ -73,8 +94,8 @@ const Section3 = () => {
               <div class="  block">
                 <h1 class=" ">Python</h1>
                 <progress
-                  class="progress level-item is-danger is-small"
-                  value="13"
+                  class="progress level-item is-warning is-small"
+                  value="25"
                   max="100"
                 >
                   80%
@@ -123,8 +144,8 @@ const Section3 = () => {
               <div class="is-left block">
                 <h1 class="is-left">Bulma</h1>
                 <progress
-                  class="progress level-item is-warning is-small"
-                  value="35"
+                  class="progress level-item is-success is-small"
+                  value="85"
                   max="100"
                 >
                   80%
